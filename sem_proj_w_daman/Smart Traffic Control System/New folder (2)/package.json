@@ -1,0 +1,27 @@
+{
+  "name": "jwt-banking-api",
+  "version": "1.0.0",
+  "description": "JWT Authentication for Banking API - CO3 & CO4 Experiment",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "keywords": [
+    "JWT",
+    "Banking",
+    "Express",
+    "Authentication"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
